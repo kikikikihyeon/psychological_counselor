@@ -1,6 +1,7 @@
 # AI 심리상담 챗봇
 
-AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이션입니다. 사용자에게 안전하고 지지적인 상담 환경을 제공합니다.
+AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이션입니다.\
+사용자에게 안전하고 지지적인 상담 환경을 제공합니다.
 
 ## 주요 기능
 
@@ -28,9 +29,9 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 ### **Core Framework**
 | 분야 | 기술 |
 |------|------|
-| **Frontend** | Streamlit |
-| **RAG/LLM** | LangChain LangGraph OpenAI|
-| **Language** | Python |
+| **Frontend** | [Streamlit](https://streamlit.io/) |
+| **RAG/LLM** | [LangChain](https://www.langchain.com/) [LangGraph](https://www.langchain.com/langgraph) [OpenAI](https://openai.com/ko-KR/)|
+| **Language** | [Python](https://www.python.org/) |
 
 ### **외부 API**
 - **OpenAI API**: AI 언어 모델
@@ -43,8 +44,8 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 ### **1. 환경 설정**
 
 저장소 클론
-git clone https://github.com/kikikikihyeon/project_1.git
-cd 파일 경로
+git clone https://github.com/kikikikihyeon/psychological_counselor.git
+cd (파일 경로)
 
 가상환경 생성 및 활성화
 python -m venv venv
@@ -57,8 +58,8 @@ pip install -r requirements.txt
 
 `.env` 파일을 프로젝트 루트에 생성하고 다음 내용을 추가:
 
-OPENAI_API_KEY='your_openai_api_key'
-PIXABAY_API_KEY='your_pixabay_api_key'
+OPENAI_API_KEY='your_openai_api_key'\
+PIXABAY_API_KEY='your_pixabay_api_key'\
 KAKAO_OAUTH_TOKEN='your_kakao_oauth_token'
 
 ### **3. API 키 획득 방법**
