@@ -34,7 +34,7 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 | 분야 | 기술 |
 |------|------|
 | **Frontend** | [Streamlit](https://streamlit.io/) |
-| **RAG/LLM** | [LangChain](https://www.langchain.com/) <br> [LangGraph](https://www.langchain.com/langgraph) <br> [OpenAI](https://openai.com/ko-KR/)|
+| **RAG/LLM** | [LangChain](https://www.langchain.com/) <br><br> [LangGraph](https://www.langchain.com/langgraph) <br><br> [OpenAI](https://openai.com/ko-KR/)|
 | **Language** | [Python](https://www.python.org/) |
 
 ### **외부 API**
@@ -50,14 +50,14 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 ### **1. 환경 설정**
 
 저장소 클론
-git clone https://github.com/kikikikihyeon/psychological_counselor.git
+git clone https://github.com/kikikikihyeon/psychological_counselor.git <br>
 cd (파일 경로)
 
-가상환경 생성 및 활성화
-python -m venv venv
+가상환경 생성 및 활성화 <br>
+python -m venv venv <br>
 source venv/bin/activate # Windows: venv\Scripts\activate
 
-의존성 설치
+의존성 설치 <br>
 pip install -r requirements.txt
 
 ### **2. API 키 설정**
