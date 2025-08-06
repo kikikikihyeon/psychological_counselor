@@ -34,7 +34,7 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 | 분야 | 기술 |
 |------|------|
 | **Frontend** | [Streamlit](https://streamlit.io/) |
-| **RAG/LLM** | [LangChain](https://www.langchain.com/) \ [LangGraph](https://www.langchain.com/langgraph) \ [OpenAI](https://openai.com/ko-KR/)|
+| **RAG/LLM** | [LangChain](https://www.langchain.com/) <br> [LangGraph](https://www.langchain.com/langgraph) <br> [OpenAI](https://openai.com/ko-KR/)|
 | **Language** | [Python](https://www.python.org/) |
 
 ### **외부 API**
