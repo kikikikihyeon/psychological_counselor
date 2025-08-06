@@ -49,15 +49,15 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 
 ### **1. 환경 설정**
 
-저장소 클론
+**저장소 클론** <br>
 git clone https://github.com/kikikikihyeon/psychological_counselor.git <br>
 cd (파일 경로)
 
-가상환경 생성 및 활성화 <br>
+**가상환경 생성 및 활성화** <br>
 python -m venv venv <br>
 source venv/bin/activate # Windows: venv\Scripts\activate
 
-의존성 설치 <br>
+**의존성 설치** <br>
 pip install -r requirements.txt
 
 ### **2. API 키 설정**
