@@ -1,0 +1,9 @@
+streamlit
+dotenv
+langchain
+langchain_openai
+langchain_teddynote
+langchain_core
+langgraph
+langgraph_core
+requests
