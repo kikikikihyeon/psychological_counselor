@@ -3,6 +3,7 @@
 AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이션입니다.\
 사용자에게 안전하고 지지적인 상담 환경을 제공합니다.  
   
+<br><br><br>
 
 ## 주요 기능
 
@@ -25,6 +26,7 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 - Tavily Search API를 통한 신뢰할 수 있는 정보 제공
 - 심리 건강 관련 최신 정보 검색  
   
+<br><br><br>
 
 ## 기술 스택
 
@@ -41,6 +43,7 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 - **Pixabay API**: 이미지 제공
 - **Tavily Search API**: 웹 검색  
   
+<br><br><br>
 
 ## 설치 및 실행
 
@@ -86,6 +89,7 @@ streamlit run app.py
 
 브라우저에서 `http://localhost:8501`로 접속  
   
+<br><br><br>
 
 ## 주요 구성 요소
 
@@ -104,6 +108,7 @@ AGENT = create_react_agent(LLM, TOOLS, state_modifier=COUNSELING_PROMPT)
 - 위기상황 감지 및 대응
 - 단계별 접근  
   
+<br><br><br>
 
 ## UI/UX 특징
 
@@ -117,6 +122,7 @@ AGENT = create_react_agent(LLM, TOOLS, state_modifier=COUNSELING_PROMPT)
 - 챗봇 특징 안내
 - 대화 초기화 버튼  
   
+<br><br><br>
 
 ## 주의사항
 
@@ -130,6 +136,7 @@ AGENT = create_react_agent(LLM, TOOLS, state_modifier=COUNSELING_PROMPT)
 - 외부 서버에 영구 저장되지 않음
 - 사용자 요구 시 혹은 위험 상태로 판단 시 카카오톡 전송  
   
+<br><br><br>
 
 ## 워크플로우
 
@@ -139,7 +146,8 @@ AGENT = create_react_agent(LLM, TOOLS, state_modifier=COUNSELING_PROMPT)
 4. **정보 필요** → 웹 검색 수행
 5. **스트레스 완화** → 고양이 이미지 제공  
   
-  
+<br><br><br>
+
 ## 그래프 시각화
 
 ![그래프](graph.png)
