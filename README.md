@@ -15,18 +15,16 @@ AI 기반 심리상담 서비스를 제공하는 Streamlit 웹 애플리케이�
 ### **위기 대응 시스템**
 - 자살, 자해 등 위험 징후 감지
 - 카카오톡을 통한 위기 알림 전송(현재는 나에게 보내기)
-![예시 사진](send_kakao_alert_example.png)
+![예시 사진](test.png)
 
 ### **정서적 지원**
 - 스트레스 완화를 위한 귀여운 고양이 이미지 제공
 - Pixabay API를 활용한 랜덤 고양이 사진
 - 마음의 안정과 힐링 효과
-![예시 사진](show_cute_cat_image_example.png)
 
 ### **정보 검색**
 - Tavily Search API를 통한 신뢰할 수 있는 정보 제공
 - 심리 건강 관련 최신 정보 검색 가능
-![예시 사진](tavily_seach_example.png)
 
 <br><br>
 
@@ -100,8 +98,11 @@ AGENT = create_react_agent(LLM, TOOLS, state_modifier=COUNSELING_PROMPT)
 
 ### **2. 핵심 도구들**
 - `send_kakao_alert()`: 카카오톡 메시지 전송
+![예시 사진](send_kakao_alert_example.png)
 - `show_cute_cat_image()`: 고양이 이미지 제공
+![예시 사진](show_cute_cat_image_example.png)
 - `TavilySearch()`: 정보 검색
+![예시 사진](tavily_seach_example.png)
 
 ### **3. 심리상담 프롬프트**
 전문적인 심리상담 접근법을 구현한 시스템 프롬프트:
